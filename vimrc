@@ -51,6 +51,9 @@ Plugin 'vim-ruby/vim-ruby'
 "Docker
 Plugin 'ekalinin/Dockerfile.vim'
 
+"YAML
+Plugin 'stephpy/vim-yaml'
+
 ""code folding
 Plugin 'tmhedberg/SimpylFold'
 
@@ -62,6 +65,7 @@ Plugin 'marcopaganini/termschool-vim-theme'
 "Airline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
 
 call vundle#end()
 
