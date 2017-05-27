@@ -33,7 +33,7 @@ Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
 Plugin 'spiroid/vim-ultisnip-scala'
 Plugin 'tpope/vim-surround'
-Plugin 'Townk/vim-autoclose'
+Plugin 'Raimondi/delimitMate'
 Plugin 'honza/vim-snippets'
 
 "SPARQL
