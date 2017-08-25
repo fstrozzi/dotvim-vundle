@@ -66,7 +66,6 @@ Plugin 'marcopaganini/termschool-vim-theme'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-
 call vundle#end()
 
 set t_Co=256
@@ -138,14 +137,11 @@ set ts=4
 "omnicomplete
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 
-"------------Start Python PEP 8 stuff----------------
-" Number of spaces that a pre-existing tab is equal to.
-au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=4
-
 "spaces for indents
-au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
-au BufRead,BufNewFile *.py,*.pyw set expandtab
-au BufRead,BufNewFile *.py set softtabstop=4
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set softtabstop=4
 
 " Use the below highlight group when displaying bad whitespace is desired.
 highlight BadWhitespace ctermbg=red guibg=red
@@ -157,6 +153,10 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " Use UNIX (\n) line endings.
 au BufNewFile *.py,*.pyw,*.c,*.h set fileformat=unix
+
+" Set Nextflow file to be highlighted as Groovy
+autocmd BufNewFile,BufRead *.nf set syntax=groovy
+
 
 " Set the default file encoding to UTF-8:
 set encoding=utf-8
