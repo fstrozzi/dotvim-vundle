@@ -16,18 +16,20 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
 
 "html
-Plugin 'isnowfy/python-vim-instant-markdown'
+"Plugin 'isnowfy/python-vim-instant-markdown'
 Plugin 'jtratner/vim-flavored-markdown'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'nelstrom/vim-markdown-preview'
+
 "python sytax checker
 Plugin 'nvie/vim-flake8'
-"Plugin 'vim-scripts/Pydiction'
+Plugin 'vim-scripts/Pydiction'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'scrooloose/syntastic'
 
 "auto-completion stuff
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
+Plugin 'ajh17/VimCompletesMe'
 Plugin 'klen/rope-vim'
 Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
@@ -55,7 +57,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'stephpy/vim-yaml'
 
 ""code folding
-Plugin 'tmhedberg/SimpylFold'
+"Plugin 'tmhedberg/SimpylFold'
 
 "Colors!!!
 Plugin 'altercation/vim-colors-solarized'
