@@ -23,14 +23,14 @@ Plugin 'nelstrom/vim-markdown-preview'
 
 "python sytax checker
 Plugin 'nvie/vim-flake8'
-Plugin 'vim-scripts/Pydiction'
+"Plugin 'vim-scripts/Pydiction'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'scrooloose/syntastic'
 
 "auto-completion stuff
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'ajh17/VimCompletesMe'
-Plugin 'klen/rope-vim'
+"Plugin 'klen/rope-vim'
 Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
 Plugin 'spiroid/vim-ultisnip-scala'
